@@ -1,0 +1,161 @@
+*{
+box-sizing: border-box;    
+margin: 0px;
+padding: 0px;
+}
+
+.navs {
+text-transform: uppercase;    
+font-size: 32px ;
+}
+
+.info{
+font-size: 5vw;    
+}
+
+.main{
+display: flex;    
+justify-content: center;
+align-items: center;
+font-size: 32px;
+font-family: roboto;
+text-transform: uppercase;
+padding: 100px;
+
+}
+
+.overflow {
+overflow: auto;    
+}
+
+.menu {
+float: left;    
+width: 20%;
+text-align: center;
+}
+
+.menu p  {
+padding: 8px;    
+margin: 7px;
+display: block;
+text-transform: capitalize;
+width: 100%;
+font-size: 32px;
+font-family: roboto;
+
+}
+
+
+.picture{
+float:left;    
+width: 60%;
+padding: 0 20px;
+height: 70%;
+border-radius: 20%;
+}
+
+.right{
+float:left;    
+width: 20%;
+padding: 15px;
+margin-top: 7px;
+text-align: center;
+}
+.right p {
+font-size: 32px;    
+font-family: roboto;
+}
+
+hr{
+padding: 100px;    
+border: 20px solid black;
+}
+
+
+img {    
+width: 50%;
+padding: 10%;
+float: left;
+opacity: 0.8;
+cursor: pointer;
+}
+
+
+
+ img:hover{
+opacity: 1;    
+}
+
+
+input[type=text], select, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+margin-top: 6px;
+margin-bottom: 16px;
+resize: vertical;
+  }
+  
+input[type=submit] {
+background-color: #04AA6D;
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+  
+input[type=submit]:hover {
+background-color: #45a049;
+}
+  
+.container1 {
+border-radius: 5px;
+background-color: #f2f2f2;
+padding: 20px;
+}
+ 
+h2{
+color: grey;    
+font-size: 32px;
+font-family: Arial, Helvetica, sans-serif;
+text-transform: capitalize;
+padding: 10px;
+text-decoration: underline;
+}
+
+.first {
+font-size: 16px;    
+font-weight: bolder;
+
+}
+.second{
+width: 20%;    
+margin: 30px;
+}
+ 
+i{
+padding: 20px;    
+margin: 10px;
+font-size: 32px;
+} 
+    
+i:hover {
+background-color: pink;    
+}
+
+h3{
+padding: 30px;    
+margin: 10px;
+font-size: 32px;
+text-transform: capitalize;
+}
+
+
+@media  screen and (max-width:600px) {
+.menu , .main , .right {
+    width: 100px;
+}    
+}
